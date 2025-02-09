@@ -5,18 +5,18 @@
 //   ];
 
 
-//   users.find((item=>item.id===2)
+// users.find((item=>item.id===2)
 
 
 
-// const numbers = [4, 7, 10, 12, 5, 8, 14];
-// const number = numbers.find(num => num >= 10);
+const numbers = [4, 7, 10, 12, 5, 8, 14];
+const number = numbers.find(num => num >= 10);
 
-// const section=document.createElement('section')
+const section=document.createElement('section')
 
-// const textType=document.createTextNode(number)
-// section.appendChild(textType)
-// document.body.appendChild(section)
+const textType=document.createTextNode(number)
+section.appendChild(textType)
+document.body.appendChild(section)
 
 // ******************************
 

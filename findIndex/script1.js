@@ -1,18 +1,18 @@
 // Найти индекс первого отрицательного числа в массиве
 // const numbers = [1, 3, -5, 7, -2, 8];
 
-
 // const find = numbers.findIndex(num => num < 0)
 // console.log(find);
 
 
-//************************** */
+
+//***************************/
 // 2. Найти индекс первого числа больше 10
 // Используя массив:
 const numbers = [5, 12, 9, 18, 7];
 const index = numbers.findIndex(num => num > 10)
 console.log(index);
-//***************************** */
+//******************************/
 
 //3
 //  const users = [
@@ -38,6 +38,9 @@ console.log(index);
 const strings = ["apple", "banana", "cherrtty", "date"];
 
 // 1. Создаём массив длин строк 
+// map(item => item.length) означает, что для каждого элемента массива strings мы получаем его длину (.length).
+// В результате создаётся новый массив, содержащий длины строк.
+// lengthsArray = [5, 6, 8, 4];
 const lengthsArray = strings.map(item => item.length)
 // 2. Находим максимальную длину
 const maxLenght = Math.max(...lengthsArray)
@@ -95,6 +98,4 @@ console.log(resultB);
 const numbersxx = [1, 3, 5, 15, 30, 60]
 const resultxx = numbersxx.findIndex(item => item % 3 === 0 && item % 5 === 0)
 console.log(resultxx);
-
-
 // ****************************
