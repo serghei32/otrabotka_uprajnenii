@@ -44,3 +44,48 @@ console.log(result9);
 // 10. Умножьте все числа в массиве на 10.
 const arr11 = [1, 2, 3, 4];
 const result11=arr11.map(item=>item*10)
+
+
+
+
+const words = ["Hello", "world", "!"];
+console.log(words.join('-'));
+
+
+//**** */
+
+// Фильтрация четных чисел:
+// Отфильтруй из массива только четные числа.
+const numberss = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const resolt= numberss.filter(item=>item%2===0)
+console.log(resolt);
+
+// двоение значений://
+// Используя map, умножь каждый элемент массива на 2.//
+
+// const numbers = [1, 2, 3, 4, 6];
+// console.log(numbers.map(item=>item*2));
+
+const words1 = ["apple", "banana", "cherry", "kiwi", "pineapple"];
+console.log(words1.filter(item=>item.length>5));
+
+// Используя map, получи массив длин каждого слова.
+
+const word = ["hello", "world", "JavaScript", "filter", "map"];
+console.log(word.map(item=>item.length));
+
+// Фильтрация пользователей по возрасту:
+// Оставь только пользователей старше 18 лет.
+const users = [
+    { name: "Alice", age: 22 },
+    { name: "Bob", age: 17 },
+    { name: "Charlie", age: 30 },
+    { name: "David", age: 15 }
+  ];
+
+console.log(users.filter(item=>item.age>18));
+console.log(users.map(item=>item.name));
+
+// Фильтрация положительных чисел:
+// Оставь только положительные числа.

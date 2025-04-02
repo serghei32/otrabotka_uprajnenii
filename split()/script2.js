@@ -76,6 +76,16 @@ let str11 = "Я люблю JS. Это мощный язык! А ты?";
 let sentences = str11.split(/[.!?]+/).filter(s => s.trim() !== "").length;
 console.log(sentences);
 //*******************************************/
+const func = (a,b)=> {
+    return a + b
+}
+func(1,2)
+
+
+const Component = (props)=> {
+    
+}
+
 
 const numberss = '12345'
 const result1 = numberss.split('')
